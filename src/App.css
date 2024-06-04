@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box,
+.bookshelf-box {
+  width: 45%;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+}
+
+button {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.book-card {
+  border: 1px solid gray;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: left;
+}
+
+h2,
+p {
+  margin: 5px 0;
+}
